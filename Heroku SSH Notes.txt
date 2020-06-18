@@ -1,0 +1,31 @@
+=> ls -a -l ~/.ssh
+ls ---- list
+a ---- 
+l ----
+.ssh ---- folder name
+
+=> ssh-keygen -t rsa -b 4096 -C "yashrawat225@gmail.com"
+ssh-keygen ---- 
+t ---- 
+rsa ----
+4096 ---- 
+C ---- 
+yashrawat225@gmail ----- 
+
+=> eval $(ssh-agent -s)
+eval ---- 
+ssh-agent ---- 
+s ---- 
+
+
+Uploading public ssh key to github
+----------------------------------
+=> ssh -T git@github.com
+ssh ---- 
+T ---- 
+git@github ---- 
+
+Uploading public ssh key to heroku
+----------------------------------
+heroku keys:add
+
